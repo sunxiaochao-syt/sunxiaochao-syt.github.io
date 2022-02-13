@@ -14,11 +14,13 @@ $("#open").click(function () {
 
 		new Typed('.letter', {
 			strings: [
-				"^1000Dear&nbsp;&nbsp;sunxuemeng" + content.to,
-				content.recipient + "^200孙雪萌<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;遇见你的这么多天，感谢有你陪伴，未来有你" +
+				"^1000Dear&nbsp;&nbsp;Sunxuemeng" + content.to,
+				content.recipient + "^200孙雪萌姑娘<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;觉得现在用Dear还为时过早。想想还能遇见你，就觉得很奇妙。" +
+				"再次遇见你的这么多天，我很激动。其实每天一直都想找你说话，想知道你的全部。也想分享我的日常，"+
+				"但却怕你不感兴趣(╯﹏╰)。有时我也非常痛恨自个这么不善言辞。我可以一直努力并改变。"+
 				content.text + "<br><br><p style='float:right; display:block; width:" + 
 				content.sign + "px;'>^1000" +
-				content.from + "^200孙</p>"
+				content.from + "^200Sunyongtuo</p>"
 			],
 			typeSpeed: 100,
 			backSpeed: 50
@@ -111,7 +113,7 @@ window.onload = function () {
 		$('#recipient').append(content.to);
 	});
 
-	toBase64("./bgm/bgm.mp3");
+	toBase64("./bgm/bgm1.mp3");
 
 	document.addEventListener('touchstart', function (event) {
 		if (event.touches.length > 1) event.preventDefault();
