@@ -98,7 +98,7 @@ function loadingPage() {
 	heart_div.css('top', (page_height - heart_height) / 2);
 	heart_div.css('left', (page_width - heart_width) / 2);
 }
-
+ 
 window.onload = function () {
 
 	loadingPage();
